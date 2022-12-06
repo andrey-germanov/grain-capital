@@ -14,3 +14,6 @@ code {
 :where(.css-dev-only-do-not-override-1s3dcof).ant-modal{
   top: 50px;
 }
+:where(.css-1s3dcof).ant-modal{
+  top: 50px;
+}
