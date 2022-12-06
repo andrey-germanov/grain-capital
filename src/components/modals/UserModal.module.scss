@@ -1,0 +1,68 @@
+.addClientModal {
+  label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #455a64;
+  }
+  .name,
+  .userName,
+  .nameCompany,
+  .bs,
+  .phone,
+  .website {
+    width: 50%;
+    display: inline-block;
+  }
+  .name,
+  .nameCompany,
+  .phone {
+    padding-right: 12px;
+  }
+  .nameCompany,
+  .bs {
+    margin-bottom: 0;
+  }
+  .catchPhrase {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: none;
+    padding: 12px 0;
+  }
+  h3 {
+    border-bottom: none;
+    margin: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  h3 {
+    padding-bottom: 12px;
+  }
+  .bs {
+    padding-left: 0;
+  }
+  input {
+    border: 1px solid #d6d8de;
+    border-radius: 4px;
+  }
+  .wrapperFooterButtons {
+    margin: 0;
+    .footerButtons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .city,
+  .street,
+  .zipCode,
+  .suite {
+    width: 25%;
+    display: inline-block;
+  }
+  .street {
+    padding: 0 12px;
+  }
+  .suite {
+    padding-left: 12px;
+  }
+}
